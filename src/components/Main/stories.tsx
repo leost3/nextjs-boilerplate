@@ -12,4 +12,5 @@ export default {
   }
 } as Meta
 
-export const Basic = args => <Main {...args} />
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const Basic = (args: any) => <Main {...args} />
